@@ -5,19 +5,19 @@ session_start();
 
 // Extract final destination from Google click URL (adurl parameter)
 $adurl = $_GET['adurl'] ?? '';
-$destination = 'https://localhost/';
+$destination = 'https://dailysource.online/';
 
 // If adurl provided, decode it to get the actual destination URL
 if (!empty($adurl)) {
     $destination = rawurldecode($adurl);
     if (!filter_var($destination, FILTER_VALIDATE_URL)) {
-        $destination = 'https://localhost/';
+        $destination = 'https://dailysource.online/';
     }
 }
 
 // Fallback to localhost if no valid destination
 if (empty($destination)) {
-    $destination = 'https://localhost/';
+    $destination = 'https://dailysource.online/';
 }
 
 $allowed = ['gclid', 'gbraid', 'wbraid', 'gad_source', 'gad_campaignid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
