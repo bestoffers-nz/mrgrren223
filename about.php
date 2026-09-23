@@ -10,7 +10,7 @@ declare(strict_types=1); ?>
     <meta name="robots" content="index,follow">
     <title>About | Mr Green</title>
     <meta name="description" content="Learn about this informational website and its digital resources.">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>

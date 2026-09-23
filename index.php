@@ -28,7 +28,7 @@ if ($tracking) {
     <meta name="description" content="Practical digital resources and easy-to-understand online guides.">
     <title>Mr Green | Digital Resources & Online Guides</title>
     <link rel="canonical" href="/">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
